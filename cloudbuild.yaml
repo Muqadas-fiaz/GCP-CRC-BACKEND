@@ -30,6 +30,7 @@ steps:
       --trigger-http \
       --source=/workspace \
       --entry-point=visitor_counter
+      
 
 options:
   logging: CLOUD_LOGGING_ONLY
