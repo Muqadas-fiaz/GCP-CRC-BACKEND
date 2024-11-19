@@ -24,7 +24,7 @@ steps:
     gcloud config set project genuine-habitat-439408-a1
     gcloud config set functions/region us-central1
     echo "Deploying Cloud Function..."
-    gcloud functions deploy visitorCounterFunction \
+    gcloud functions deploy muqadas-fn \
       --region=us-central1 \
       --runtime=python311 \
       --trigger-http \
