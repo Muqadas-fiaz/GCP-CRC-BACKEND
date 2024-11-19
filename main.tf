@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_cloudfunctions_function" "visitor_counter" {
-  name        = "muqadas-fn2"
+  name        = "muqadas-2nd"
   runtime     = "python311"
   entry_point = "visitor_counter"
   source_archive_bucket = "muqaddasfiaz.site"
